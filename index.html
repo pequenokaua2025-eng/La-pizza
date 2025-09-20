@@ -1,41 +1,113 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>La pizza  - pizzaria</title>
+    <title>La pizza - pizzaria</title>
 </head>
+
 <body>
-        <header>
-             <div>
-                <a href="">La pizza </a>
-                <nav>
-                    <a href="">Sobre </a>
-                    <a>Cardápio </a>  
-                    <a>Contato</a>  
-                </nav>
-            </div> 
-        </header>
+    <header>
+        <div>
+            <a href="">La pizza </a>
+            <nav>
+                <a href="">Sobre </a>
+                <a>Cardápio </a>
+                <a>Contato</a>
+            </nav>
+        </div>
+    </header>
     <main>
         <section id="sobre">
-        </section>     
+            <p>Sobre</p>
+        </section>
         <section id=" Cardapio">
-                  <p>Cardapio</p>   
-        </section>
-      
-        <section id="Contato">
-                  <p>Contato</p>   
-        </section>
-                    
+            <p>Cardapio</p>
+            <h2>Cardapio</h2>
+            <p>As opções mais famosas do no menu.</p>
+            <div>
+                <!-- ITEM 1 -->
+                <article>
+                    <figure>
+                        <img src="./img/2c3125eb8597b442fad87e2c031423e6_XL.jpg" alt="Pizza de margherita">
+                    </figure>
+                    <h3>Pizza de margherita</h3>
+                    <p>Molho de tomate, mozzarela e manjerição fresco.</p>
+                    <span>R$39,00</span>
+                </article>
+                <!-- ITEM 2 -->
+                <article>
+                    <figure>
+                        <img src="./img/PIZZA-MUSSARELA-5-scaled.jpeg" alt="Pizza de mussarela ">
+                    </figure>
+                    <h3>Pizza de muzzarela</h3>
+                    <p>Molho de tomate e mozzarela .</p>
+                    <span>R$39,00</span>
+                </article>
+                <!-- ITEM 3 -->
+                <article>
+                    <figure>
+                        <img src="./img/accb7d_37d37d9f1001e88384dafc6e5cc60c4f.jpg_1024.jpg" alt="Pizza de calabresa">
+                    </figure>
+                    <h3>Pizza de calabresa</h3>
+                    <p>Molho de tomate e mozzarela e calabresa .</p>
+                    <span>R$39,00</span>
+                </article>
+                <!-- ITEM  4-->
+                <article>
+                    <figure>
+                        <img src="./img/images.jpg" alt="Pizza de milho">
+                    </figure>
+                    <h3>Pizza de milho</h3>
+                    <p>Molho de tomate e mozzarela e milho .</p>
+                    <span>R$39,00</span>
+                </article>
+                <!-- ITEM  5-->
+                <article>
+                    <figure>
+                        <img src="./img/sabores_de_pizza_morango_com_chocolate.jpg" alt="Pizza doce">
+                    </figure>
+                    <h3>Pizza doce</h3>
+                    <p>Molho de tomate e doce .</p>
+                    <span>R$39,00</span>
+                </article>
+                <!-- ITEM  6-->
+                <article>
+                    <figure>
+                        <img src="./img/frango-e-catupiry-chicken-and-cream-cheese-pizza-v0-cuunalcjshue1.jpg"
+                            alt="Pizza de Frango com Catupiry">
+                    </figure>
+                    <h3>Pizza de Frango com Catupiry</h3>
+                    <p>Molho de tomate e mozzarela e Frango com Catupiry .</p>
+                    <span>R$39,00</span>
+                </article>
             </div>
         </section>
-        <section>
-
+        <section id="Contato">
+            <div>
+                <h3>Fale com a gente!</h3>
+                <form>
+                    <label>
+                        Nome
+                        <input type="text" placeholder="digite seu nome completo. . ." 
+                        name="nome" required />
+                    </label>
+                    <label>
+                        Telefone:
+                        <input type="tel" placeholder="(11) 91111-1111" name="Telefone" required />
+                    </label>
+                    <label>
+                        Mensagem:
+                        <textarea name="mensagem" placeholder="Escreva sua mensagem. . ." rows="5" required></textarea>
+                    </label>
+                    <input type="submit" name="Enviar"/>
+                </form>
+            </div>
+   </section>
 
     </main>
 
 </body>
+
 </html>
-
-
-
